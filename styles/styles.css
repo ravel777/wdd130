@@ -12,13 +12,13 @@ main img {
     height: auto;
 }
 aside {
-    width: 800px;
+    width: 20em;
+    text-align: center;
     margin: 10px;
     border: solid 1px #222;
     padding: 5px;
     background-color: darkslategray;
     color: #FFF;
-    text-align: center;
 }
 aside img {
     width: 200px;
@@ -33,4 +33,13 @@ footer {
     margin-top: 15px;
     border-top: solid 1px #000;
     text-align: center;
+}
+
+/* Class selectors */
+.box {
+    margin: 1rem;
+    border: solid 1px rgba(2,2,2,.5);
+    padding: 1rem;
+    background-color: #BBB;
+    color: #000;
 }
