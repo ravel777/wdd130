@@ -1,0 +1,103 @@
+:root {
+    --heading-font: "Roboto", sans-serif;
+    --paragraph-font: "Arima", system-ui;
+    
+    --primary-color: #FFF;
+    --secondary-color: #A8F9FF;
+    --accent1-color: #295989;
+    --accent2-color: #32161F;
+    --accent3-color: #81A094;
+    
+    --nav-background-color: #FFF;
+    --nav-link-color: #295989;
+    --nav-hover-link-color: #32161F;
+    --nav-hover-background-color: #A8F9FF;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1440px;
+    padding: 20px;
+    border: solid 1px red;
+}
+
+/* HEADER */
+header {
+    
+}
+header img, header nav {
+    display: inline-block;
+}
+header img {
+    width: 80px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    display: flex;
+    position: relative;
+    top: 0px;
+    border: solid 1px #DD0000;
+    float: right;
+}
+nav a {
+    display: inline-block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+} 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/* MAIN */
+main .hero {
+    position: relative;
+}
+main .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+main .hero h1 {
+    position: absolute;
+    top: 700px;
+    margin-left: 20px;
+    z-index: 2;
+}
+main .hero article {
+    position: absolute;
+    top: 710px;
+    background-color: rgba(250, 250, 250, .7);
+    margin: 0 0 0 10px;
+    padding: 40px 10px 10px 10px;
+    z-index: 1;
+}
+main .hero article img {
+    width: 100px;
+    float: right;
+}
+section img {
+    width: 150px;
+}
+
+/* FOOTER */
+footer p {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    float: right;
+}
+footer a img{
+    width: 20px;
+}
+footer p, footer a {
+    display: inline-block;
+}
