@@ -17,7 +17,6 @@ body {
     font-family: var(--paragraph-font);
     max-width: 1440px;
     padding: 20px;
-    border: solid 1px red;
 }
 
 /* HEADER */
@@ -35,7 +34,6 @@ nav {
     display: flex;
     position: relative;
     top: 0px;
-    border: solid 1px #DD0000;
     float: right;
 }
 nav a {
