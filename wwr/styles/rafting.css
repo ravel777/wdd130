@@ -86,18 +86,12 @@ main .hero article h1 {
     z-index: 2;
 }
 @media screen and (max-width: 800px){
-    main .hero h1 {
-
-    }
     main .hero article {
         height: 100px;
         margin: -200px 10px 0px 10px;
     }
 }
 @media screen and (max-width: 600px){
-    main .hero h1 {
-
-    }
     main .hero article {
         align-items: center;
         height: 100px;
