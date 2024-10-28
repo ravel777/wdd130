@@ -19,7 +19,7 @@ body {
     padding: 20px;
 }
 
-/* HEADER */
+/* == HEADER == */
 header {
     display: grid;
     grid-template-columns: 15% auto;
@@ -52,7 +52,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-/* MAIN */
+/* == MAIN == */
 main {
     max-width: 1000px;
 }
@@ -114,7 +114,7 @@ main .hero article img {
     align-items: center;
     justify-content: center;
 }
-/* Adventure Section */
+/* == Adventure Section == */
 .history h2 {
     background-color: var(--accent1-color);
     color: var(--nav-background-color);
@@ -124,7 +124,7 @@ main .hero article img {
 .history img {
     width: 150px;
 }
-/* Adventure Section */
+/* == Adventure Section == */
 .adventure {
     max-width: 1000px;
     display: grid;
@@ -151,7 +151,7 @@ main .hero article img {
     }
 }
 
-/* FOOTER */
+/* == FOOTER == */
 footer {
     max-width: 1000px;
     background: var(--accent1-color);
@@ -177,4 +177,132 @@ footer a img{
     background-color: var(--primary-color);
     border-radius: 6px;
     padding: 0 2px;
+}
+footer a img:hover {
+    background-color: #AAA;
+}
+
+/* == Form CSS == */
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.info ul  span{
+    font-weight: bold;
+}
+.info ul  iframe{
+    width: 100%;
+    height: 300px;
+}
+.caption {
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: var(--accent3-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+.caption figure {
+}
+.caption img {
+    width: 200px;
+    box-shadow: 0 3px 3px 0;
+}
+.form {
+    background-color: #DDD;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.form .inputs {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.form .inputs input {
+    width: 91%;
+    float: right;
+    border: solid 1px #CCC;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+@media screen and (max-width: 960px){
+    .form .inputs input {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 610px){
+    .form .inputs input {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 480px){
+    .form .inputs input {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 400px){
+    .form .inputs input {
+        width: 70%;
+    }
+}
+.form .radio {
+    margin: 30px 0 10px 0;
+}
+.form .radio input {
+    width: 18px;
+    height: 18px;
+}
+.form .area {
+    margin: 0 0 20px 0;
+    height: 100px;
+}
+.form .area textarea{
+    width: 91%;
+    height: 100px;
+    border-radius: 6px;
+    float: right;
+}
+@media screen and (max-width: 960px){
+    .form .area textarea {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 610px){
+    .form .area textarea {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 480px){
+    .form .area textarea {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 400px){
+    .form .area textarea {
+        width: 70%;
+    }
+}
+.form .check{
+    margin: 20px 0 10px 0;
+}
+.form .check input {
+    width: 18px;
+    height: 18px;
+}
+.form .button{
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.form .button input{
+    border: solid 1px #BBB;
+    border-radius: 4px;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-size: 18px;
+    padding: 8px 24px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.form .button input:hover{
+    background-color: var(--nav-hover-background-color);
+    color: #333;
 }

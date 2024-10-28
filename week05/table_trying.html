@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table tr, table th, table td {
+            border: solid 1px #999;
+        }
+    </style>    
+</head>
+<body>
+    <header>The tables</header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" colspan="2">Department</th>
+                    <th scope="col">Person</th>
+                    <th scope="col">Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row" rowspan="2">Kouilou</td>
+                    <td scope="row">Guy</td>
+                    <td scope="row">Franklain</td>
+                    <td scope="row">34 ans</td>
+                </tr>
+                <tr>
+                    <td >Joel</td>
+                    <td>TATY</td>
+                    <td>43 ans</td>
+                </tr>
+                <tr>
+                    <td scope="row">Dolisie</td>
+                    <td>Martin</td>
+                    <td>NDINGA</td>
+                    <td>33 ans</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <br>
+        <form action="#">
+            <fieldset>
+                <legend>Contact Info</legend>
+                <label for="fullname">Fullname</label>
+                <input type="text" id="fullname" name="fullname">
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Test</legend>
+                <label for="age">Enter your age:</label><input type="number" id="age" name="age">
+                <button type="submit">Submit your Answer</button>
+            </fieldset>
+            <fieldset class="radios">
+                <legend>Radio</legend>
+                <label for="item">
+                    <input type="radio" name="item" id="" style="height: 30px; width: 30px;">
+                    Car
+                </label>
+                <label for="item">
+                    <input type="radio" name="item" id="">
+                    Watch
+                </label>
+                <label for="item">
+                    <input type="radio" name="item" id="">
+                    Phone
+                </label>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+</html>
